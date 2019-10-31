@@ -25,6 +25,8 @@ class MainViewModel:ViewModel() {
 
     fun clickBait(){
 
+
+        //Delays the thread for for a minuite
         viewModelScope.launch {
 
             delay(1000)
